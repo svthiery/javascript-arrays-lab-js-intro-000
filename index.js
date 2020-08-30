@@ -17,7 +17,7 @@ function destructivelyAppendKitten(name) {
  }
  
  function appendKitten(name) {
-   let kittenCopy = appendKitten.slice();
+   let kittenCopy = kittens.slice();
    kittenCopy.push(name)
    return kittenCopy
  }
