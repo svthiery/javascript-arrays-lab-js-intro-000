@@ -24,5 +24,6 @@ function destructivelyAppendKitten(name) {
  
  function prependKitten(name) {
    let kittenCopy = kittens.slice();
-   kittenCopy.
+   kittenCopy.unshift(name);
+   return kittenCopy
  }
