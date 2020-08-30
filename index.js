@@ -33,3 +33,9 @@ function destructivelyAppendKitten(name) {
    kittenCopy.pop(name);
    return kittenCopy;
  }
+ 
+ function removeFirstKitten(name) {
+   let kittenCopy = kittens.slice();
+   kittenCopy.shift(name);
+   return kittenCopy
+ }
