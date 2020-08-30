@@ -21,3 +21,8 @@ function destructivelyAppendKitten(name) {
    kittenCopy.push(name)
    return kittenCopy
  }
+ 
+ function prependKitten(name) {
+   let kittenCopy = kittens.slice();
+   kittenCopy.
+ }
